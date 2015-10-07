@@ -14,7 +14,7 @@ in status.js file.
 
 Restart sFlow-RT to load weather map.
 
-Weathermap diagrams be abstract, for example the following article
+Weathermap diagrams can be abstract, for example the following article
 describes how to monitor server pools using sFlow-RT:
 
 http://blog.sflow.com/2013/02/cluster-performance-metrics.html 
