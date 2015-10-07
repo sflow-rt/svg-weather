@@ -1,0 +1,26 @@
+Real-Time Network Weathermap using SVG
+
+This code is based on the following example:
+
+http://blog.sflow.com/2015/06/leaf-and-spine-traffic-engineering.html
+
+Copy files to the sFlow-RT app directory.
+
+Edit scripts/status.js links and nodes objects to identify data sources.
+
+Use an SVG editor (e.g. SVG-edit) to create a map.svg file representing
+network "weather map" - object identifiers must match node and link names
+in status.js file.
+
+Restart sFlow-RT to load weather map.
+
+Weathermap diagrams be abstract, for example the following article
+describes how to monitor server pools using sFlow-RT:
+
+http://blog.sflow.com/2013/02/cluster-performance-metrics.html 
+
+The diagram in the article could be re-created as an SVG file and animated
+to show live status information based on summary statistics for each pool.
+
+For more information, visit:
+http://www.sFlow-RT.com
