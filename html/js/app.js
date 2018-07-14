@@ -49,9 +49,7 @@ $(function() {
    });
   }
 
-  $(document).ready(function() {
-    pollStatus();
-  });
+  pollStatus();
 
   document.getElementById('svgObj').addEventListener('load', function() {
     svgDoc = $(document.getElementById('svgObj').contentDocument);
